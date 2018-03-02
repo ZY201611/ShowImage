@@ -16,10 +16,10 @@
 		E427A034204913C000CD486C /* ShowImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E427A033204913C000CD486C /* ShowImageTests.m */; };
 		E427A03F204913C000CD486C /* ShowImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E427A03E204913C000CD486C /* ShowImageUITests.m */; };
 		E427A04E204913D100CD486C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E427A04D204913D100CD486C /* RootViewController.m */; };
-		E427A054204913DA00CD486C /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E427A050204913DA00CD486C /* 1.jpeg */; };
-		E427A055204913DA00CD486C /* 4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E427A051204913DA00CD486C /* 4.jpeg */; };
-		E427A056204913DA00CD486C /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E427A052204913DA00CD486C /* 2.jpeg */; };
-		E427A057204913DA00CD486C /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E427A053204913DA00CD486C /* 3.jpeg */; };
+		E4B435C52049172700D0E429 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E4B435C12049172700D0E429 /* 1.jpeg */; };
+		E4B435C62049172700D0E429 /* 4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E4B435C22049172700D0E429 /* 4.jpeg */; };
+		E4B435C72049172700D0E429 /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E4B435C32049172700D0E429 /* 2.jpeg */; };
+		E4B435C82049172700D0E429 /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E4B435C42049172700D0E429 /* 3.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,10 +58,10 @@
 		E427A040204913C000CD486C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E427A04C204913D100CD486C /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		E427A04D204913D100CD486C /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		E427A050204913DA00CD486C /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
-		E427A051204913DA00CD486C /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpeg; sourceTree = "<group>"; };
-		E427A052204913DA00CD486C /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
-		E427A053204913DA00CD486C /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
+		E4B435C12049172700D0E429 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		E4B435C22049172700D0E429 /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpeg; sourceTree = "<group>"; };
+		E4B435C32049172700D0E429 /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+		E4B435C42049172700D0E429 /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +112,7 @@
 		E427A019204913C000CD486C /* ShowImage */ = {
 			isa = PBXGroup;
 			children = (
-				E427A04F204913DA00CD486C /* addressBookPhoto */,
+				E4B435C02049172700D0E429 /* addressBookPhoto */,
 				E427A01A204913C000CD486C /* AppDelegate.h */,
 				E427A01B204913C000CD486C /* AppDelegate.m */,
 				E427A01D204913C000CD486C /* ViewController.h */,
@@ -146,16 +146,15 @@
 			path = ShowImageUITests;
 			sourceTree = "<group>";
 		};
-		E427A04F204913DA00CD486C /* addressBookPhoto */ = {
+		E4B435C02049172700D0E429 /* addressBookPhoto */ = {
 			isa = PBXGroup;
 			children = (
-				E427A050204913DA00CD486C /* 1.jpeg */,
-				E427A051204913DA00CD486C /* 4.jpeg */,
-				E427A052204913DA00CD486C /* 2.jpeg */,
-				E427A053204913DA00CD486C /* 3.jpeg */,
+				E4B435C12049172700D0E429 /* 1.jpeg */,
+				E4B435C22049172700D0E429 /* 4.jpeg */,
+				E4B435C32049172700D0E429 /* 2.jpeg */,
+				E4B435C42049172700D0E429 /* 3.jpeg */,
 			);
-			name = addressBookPhoto;
-			path = ../../../Desktop/PhotoPicturesHomeWork/PhotoPicturesHomeWork/addressBookPhoto;
+			path = addressBookPhoto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,13 +263,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E427A055204913DA00CD486C /* 4.jpeg in Resources */,
+				E4B435C62049172700D0E429 /* 4.jpeg in Resources */,
 				E427A027204913C000CD486C /* LaunchScreen.storyboard in Resources */,
-				E427A056204913DA00CD486C /* 2.jpeg in Resources */,
+				E4B435C72049172700D0E429 /* 2.jpeg in Resources */,
 				E427A024204913C000CD486C /* Assets.xcassets in Resources */,
 				E427A022204913C000CD486C /* Main.storyboard in Resources */,
-				E427A057204913DA00CD486C /* 3.jpeg in Resources */,
-				E427A054204913DA00CD486C /* 1.jpeg in Resources */,
+				E4B435C82049172700D0E429 /* 3.jpeg in Resources */,
+				E4B435C52049172700D0E429 /* 1.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
